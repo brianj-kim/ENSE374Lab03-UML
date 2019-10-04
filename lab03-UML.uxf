@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>300</x>
+      <y>60</y>
+      <w>200</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>BankAccount
+-
+-accountNo: int
+-accountBalance: double
+-interestRate: double
+-
++getAccountNo()
++setAccountNo()
++getAccountBalance()
++setAccountBalance()
++getInterestRate()
++setInterestRate()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>350</y>
+      <w>200</w>
+      <h>280</h>
+    </coordinates>
+    <panel_attributes>CheckingAccount
+-
+-debitCardNo: int
+-checkNo: int
+-maintenanceFee: double
+-atmWithdrawalFee: double
+-minimumBalanceFee: double
+-
++getDebitNo()
++setDebitNo()
++getCheckNo()
++setCheckNo()
++getFeeMaintenance()
++setFeeMaintenance()
++getFeeWithrawalATM()
++setFeeWithrawalATM()
++getFeeMinBalance()
++setFeeMinBalance()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>100</x>
+      <y>230</y>
+      <w>250</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+layer=2</panel_attributes>
+    <additional_attributes>230.0;10.0;230.0;70.0;10.0;70.0;10.0;120.0</additional_attributes>
+  </element>
+</diagram>
